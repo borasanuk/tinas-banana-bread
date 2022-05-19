@@ -1,54 +1,28 @@
-.tinas-hero {
-  background-color: black;
-  z-index: -1;
-  top:0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.tinas-hero-title {
-  position: absolute;
-  bottom: 0;
-  padding: 20px 40px 80px;
-  width: 100%;
-  color: #fff;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
-  font-size: 8vw;
-  font-weight: 500;
-  line-height: 7vw;
-}
-
-.tinas-hero-bg-container {
-  z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.tinas-hero-bg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.tinas-app-container {
+  background-color: #352918;
 }
 
 .tinas-navbar {
+  z-index: 1;
   display: flex;
+  position: absolute;
+  width: calc(100% - 60px);
+  flex-wrap: row wrap;
   align-items: flex-start;
   padding: 0 30px;
-  height: 100px;
+  min-height: 100px;
   background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .tinas-navbar-logo {
-  margin-top: 5px;
-  height: 80px;
+  margin-top: 20px;
+  height: 50px;
   margin-right: auto;
 }
 
 .tinas-navbar-item {
+  cursor: pointer;
   color: #fff;
   font-size: 22px;
   font-weight: 500;
@@ -56,6 +30,58 @@
   padding: 2px 0;
 }
 
+.tinas-navbar-item:hover {
+  color: rgb(207, 207, 207);
+}
+
 .tinas-navbar-item.tinas-navbar-item-selected {
   border-bottom: 2px solid #fff;
+}
+
+.tinas-navbar-item.tinas-navbar-item-selected:hover {
+  color: #fff
+}
+
+.tinas-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tinas-section-title {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 100px 100px 50px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 75px; 
+  color: #a99d8f;
+  text-align: center;
+}
+
+.tinas-section-text {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 50px 50px 100px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 52px; 
+  color: #a99d8f;
+  text-align: center;
+}
+
+.tinas-section-img {
+  width: 80%; 
+  max-height: 100vh;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.bg-1 {
+  background-color: #65543c;  
+}
+
+.bg-2 {
+  background-color: #352918;
 }

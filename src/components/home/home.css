@@ -1,0 +1,71 @@
+.tinas-masthead {
+  background-color: black;
+  z-index: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.tinas-masthead-title {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 40px 80px;
+  width: calc(100% - 80px);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  font-size: 8vw;
+  font-weight: 500;
+  line-height: 7vw;
+}
+
+.tinas-masthead-down-icon {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+.tinas-masthead-bg-container {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tinas-masthead-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tinas-section {
+  width: 100%;
+}
+
+.tinas-section-title {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 100px 100px 50px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #a99d8f;
+  text-align: center;
+}
+
+.tinas-section-text {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 50px 50px 100px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 52px;
+  color: #a99d8f;
+  text-align: center;
+}
+
+.bg-1 {
+  background-color: #65543c;
+}
