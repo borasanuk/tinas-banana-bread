@@ -2,6 +2,7 @@ import HomePage from "./components/home/Home";
 import "./App.css";
 import { useState } from "react";
 import AboutPage from "./components/about/About";
+import ContactPage from "./components/contact/Contact";
 
 function App() {
   const [currentPage, setCurrentPage] = useState<string>("home");
@@ -11,7 +12,9 @@ function App() {
         return <HomePage />
       case "about":
         return <AboutPage />
-      case "home":
+      case "contact":
+        return <ContactPage />
+      default:
         return <HomePage />
     }
   }

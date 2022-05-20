@@ -63,7 +63,7 @@
 .tinas-section-text {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 50px 50px 100px;
+  padding: 50px;
   font-size: 48px;
   font-weight: 500;
   line-height: 52px; 
@@ -72,9 +72,11 @@
 }
 
 .tinas-section-img {
-  width: 80%; 
+  margin: 20px;
   max-height: 100vh;
-  object-fit: contain;
+  width: 80%;
+  max-width: 800px;
+  object-fit: cover;
   border-radius: 20px;
 }
 

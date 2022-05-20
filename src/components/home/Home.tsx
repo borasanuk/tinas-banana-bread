@@ -43,6 +43,7 @@ const HomePage = () => {
           gained more acceptance with the release of the original Chiquita
           Banana's Recipe Book in 1950.
         </div>
+        <div style={{ padding: 40 }}></div>
       </div>
       <div className="tinas-section bg-1">
         <div className="tinas-section-title">celebrating banana bread</div>
